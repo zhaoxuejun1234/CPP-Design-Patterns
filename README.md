@@ -1,2 +1,2 @@
 # CPP-Design-Patterns
-23 C++ design patters
+This repo contains 23 C++ design patters
