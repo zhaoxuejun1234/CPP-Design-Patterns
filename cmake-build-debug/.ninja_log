@@ -1,0 +1,7 @@
+# ninja log v5
+269	360	1683263078120494974	Design_Patterns	db18ed25368fa0f1
+0	43	1683271019314678663	build.ninja	59e45a5ab84ebd00
+1	262	1683262741505104542	CMakeFiles/Design_Patterns.dir/01_Factory_Pattern.cpp.o	69f20fb52e1fb9d
+2	268	1683263078028492969	CMakeFiles/Design_Patterns.dir/03_Prototype_Pattern.cpp.o	a4dd7ad5ce8b36a6
+2	37	1683262741281099579	CMakeFiles/Design_Patterns.dir/02_Builder_Pattern.cpp.o	bf9ccad0bc90ce1c
+0	256	1683262741501104454	CMakeFiles/Design_Patterns.dir/00_Singleton_Pattern.cpp.o	80b00795df6db549

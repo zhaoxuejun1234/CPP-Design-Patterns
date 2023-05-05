@@ -1,7 +1,10 @@
 //
 // Created by xuejun on 23-5-5.
 //
-//原型模式，通过父类指针实现子类对象的拷贝
+// 原型模式，通过父类指针实现子类对象的拷贝  /\
+// 思考为什么不通过拷贝构造函数实现对象的拷贝/|\
+//                                   / | \
+
 #include <iostream>
 using namespace std;
 

@@ -49,20 +49,20 @@ cmake_ninja_workdir = /home/xuejun/C++Projects/Features/Design_Patterns/cmake-bu
 
 build cmake_object_order_depends_target_Design_Patterns: phony || CMakeFiles/Design_Patterns.dir
 
-build CMakeFiles/Design_Patterns.dir/Singleton.cpp.o: CXX_COMPILER__Design_Patterns_Debug /home/xuejun/C++Projects/Features/Design_Patterns/Singleton.cpp || cmake_object_order_depends_target_Design_Patterns
-  DEP_FILE = CMakeFiles/Design_Patterns.dir/Singleton.cpp.o.d
+build CMakeFiles/Design_Patterns.dir/03_Prototype_Pattern.cpp.o: CXX_COMPILER__Design_Patterns_Debug /home/xuejun/C++Projects/Features/Design_Patterns/03_Prototype$ Pattern.cpp || cmake_object_order_depends_target_Design_Patterns
+  DEP_FILE = CMakeFiles/Design_Patterns.dir/03_Prototype_Pattern.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Design_Patterns.dir
   OBJECT_FILE_DIR = CMakeFiles/Design_Patterns.dir
 
-build CMakeFiles/Design_Patterns.dir/Factory.cpp.o: CXX_COMPILER__Design_Patterns_Debug /home/xuejun/C++Projects/Features/Design_Patterns/Factory.cpp || cmake_object_order_depends_target_Design_Patterns
-  DEP_FILE = CMakeFiles/Design_Patterns.dir/Factory.cpp.o.d
+build CMakeFiles/Design_Patterns.dir/04_Adapater_Pattern.cpp.o: CXX_COMPILER__Design_Patterns_Debug /home/xuejun/C++Projects/Features/Design_Patterns/04_Adapater$ Pattern.cpp || cmake_object_order_depends_target_Design_Patterns
+  DEP_FILE = CMakeFiles/Design_Patterns.dir/04_Adapater_Pattern.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Design_Patterns.dir
   OBJECT_FILE_DIR = CMakeFiles/Design_Patterns.dir
 
-build CMakeFiles/Design_Patterns.dir/Builder_Pattern.cpp.o: CXX_COMPILER__Design_Patterns_Debug /home/xuejun/C++Projects/Features/Design_Patterns/Builder$ Pattern.cpp || cmake_object_order_depends_target_Design_Patterns
-  DEP_FILE = CMakeFiles/Design_Patterns.dir/Builder_Pattern.cpp.o.d
+build CMakeFiles/Design_Patterns.dir/05_Bridge_Pattern.cpp.o: CXX_COMPILER__Design_Patterns_Debug /home/xuejun/C++Projects/Features/Design_Patterns/05_Bridge_Pattern.cpp || cmake_object_order_depends_target_Design_Patterns
+  DEP_FILE = CMakeFiles/Design_Patterns.dir/05_Bridge_Pattern.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Design_Patterns.dir
   OBJECT_FILE_DIR = CMakeFiles/Design_Patterns.dir
@@ -75,7 +75,7 @@ build CMakeFiles/Design_Patterns.dir/Builder_Pattern.cpp.o: CXX_COMPILER__Design
 #############################################
 # Link the executable Design_Patterns
 
-build Design_Patterns: CXX_EXECUTABLE_LINKER__Design_Patterns_Debug CMakeFiles/Design_Patterns.dir/Singleton.cpp.o CMakeFiles/Design_Patterns.dir/Factory.cpp.o CMakeFiles/Design_Patterns.dir/Builder_Pattern.cpp.o
+build Design_Patterns: CXX_EXECUTABLE_LINKER__Design_Patterns_Debug CMakeFiles/Design_Patterns.dir/03_Prototype_Pattern.cpp.o CMakeFiles/Design_Patterns.dir/04_Adapater_Pattern.cpp.o CMakeFiles/Design_Patterns.dir/05_Bridge_Pattern.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Design_Patterns.dir
   POST_BUILD = :

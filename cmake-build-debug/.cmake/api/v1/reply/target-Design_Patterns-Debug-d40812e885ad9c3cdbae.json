@@ -95,19 +95,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Singleton.cpp",
+			"path" : "03_Prototype Pattern.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Factory.cpp",
+			"path" : "04_Adapater Pattern.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Builder Pattern.cpp",
+			"path" : "05_Bridge_Pattern.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
