@@ -14,8 +14,7 @@
 #include <chrono>
 #include <condition_variable>
 using namespace std;
-
-
+//region0 单例队列
 //类初始化后生成唯一任务队列，生产者消费者轮番访问任务队列
 class Q_Task
 {
@@ -64,6 +63,7 @@ private:
 };
 Q_Task Q_Task::Tasks;
 //Q_Task*  Q_Task::Tasks = new Q_Task;
+//endregion0 单例队列
 int main()
 {
     thread t1  = thread([]()
@@ -94,3 +94,4 @@ int main()
     t2.join();
     return 0;
 }
+
