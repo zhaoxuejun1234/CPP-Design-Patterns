@@ -14,7 +14,7 @@ using namespace std;
 
 enum class Type:char{Sheep,Lion};
 //region SimpleFactory
-//简单工厂模式的SimleFactory单一职责原则不能很好的满足，有了新的Smile果实，
+// 简单工厂模式的SimleFactory单一职责原则不能很好的满足，有了新的Smile果实，
 // 需要修改类，采用工厂模式，一个工厂对应一个Smile果实
 class AbstractSmile
 {
