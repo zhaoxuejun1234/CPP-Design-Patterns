@@ -13,6 +13,7 @@
 using namespace std;
 
 enum class Type:char{Sheep,Lion};
+//region SimpleFactory
 class AbstractSmile
 {
 public:
@@ -68,6 +69,10 @@ public:
 private:
 
 };
+//endregion 0
+//region Factory
+
+//endregion Factory
 int main()
 {
     SimleFactory f;
