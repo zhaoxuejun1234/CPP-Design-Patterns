@@ -3,4 +3,4 @@ project(Design_Patterns)
 
 set(CMAKE_CXX_STANDARD 14)
 link_libraries(pthread)
-add_executable(Design_Patterns 00_2Singleton_Pattern.cpp)
+add_executable(Design_Patterns  "01_Factory Pattern.cpp")

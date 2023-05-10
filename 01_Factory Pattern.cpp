@@ -12,8 +12,67 @@
 
 using namespace std;
 
+enum class Type:char{Sheep,Lion};
+class AbstractSmile
+{
+public:
+    virtual void transform()=0;
+    virtual void ability()=0;
+    virtual ~AbstractSmile()=default;
+private:
 
+};
+class SheepSmile: public AbstractSmile
+{
+    void transform()
+    {
+        cout<<"Transform into sheep"<<endl;
+    }
+    void ability()
+    {
+        cout<<"Can produce milk"<<endl;
+    }
+};
+
+class LionSmile: public AbstractSmile
+{
+    void transform()
+    {
+        cout<<"Transform into lion"<<endl;
+    }
+    void ability()
+    {
+        cout<<"Can produce fire"<<endl;
+    }
+};
+class SimleFactory
+{
+public:
+    AbstractSmile* CreateSmile(Type type)
+    {
+        switch(type)
+        {
+            case Type::Sheep:
+            {
+                AbstractSmile* p1 = new SheepSmile;
+                return p1;
+            }
+            case Type::Lion:
+            {
+                AbstractSmile* p1 = new LionSmile;
+                return p1;
+            }
+        }
+    }
+
+private:
+
+};
 int main()
 {
+    SimleFactory f;
+    AbstractSmile* p = f.CreateSmile(Type::Lion);
+    p->transform();
+    p->ability();
 
 }
