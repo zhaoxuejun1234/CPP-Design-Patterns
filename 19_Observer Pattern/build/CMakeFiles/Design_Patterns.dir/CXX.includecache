@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xuejun/C++Projects/Features/Design_Patterns/19_Observer Pattern/agents.cpp
+agents.h
+/home/xuejun/C++Projects/Features/Design_Patterns/19_Observer Pattern/agents.h
+
+/home/xuejun/C++Projects/Features/Design_Patterns/19_Observer Pattern/agents.h
+iostream
+-
+string
+-
+list
+-
+observer.h
+/home/xuejun/C++Projects/Features/Design_Patterns/19_Observer Pattern/observer.h
+
+/home/xuejun/C++Projects/Features/Design_Patterns/19_Observer Pattern/main.cpp
+agents.h
+/home/xuejun/C++Projects/Features/Design_Patterns/19_Observer Pattern/agents.h
+memory
+-
+
+/home/xuejun/C++Projects/Features/Design_Patterns/19_Observer Pattern/observer.cpp
+observer.h
+/home/xuejun/C++Projects/Features/Design_Patterns/19_Observer Pattern/observer.h
+memory
+-
+
+/home/xuejun/C++Projects/Features/Design_Patterns/19_Observer Pattern/observer.h
+string
+-
+agents.h
+/home/xuejun/C++Projects/Features/Design_Patterns/19_Observer Pattern/agents.h
+memory
+-
+
