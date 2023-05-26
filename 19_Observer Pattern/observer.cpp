@@ -3,7 +3,8 @@
 //
 #include "observer.h"
 #include "agents.h"
-Observer::Observer(std::string name_,Agents* ptr_):name(name_),ptr(ptr_)
+#include <memory>
+Observer::Observer(std::string name_,std::shared_ptr<Agents> ptr_):name(name_),ptr(ptr_)
 {
     ptr->Add_User(this);
 };
@@ -14,5 +15,9 @@ void Observer::Unsubscribe()
 
 void BJDT::update(std::string msg) 
 {
-    std::cout<<"Subscriber "<<name<<" accept "<<msg<<std::endl;
+    std::cout<<"Subscriber "<<name<<" accept info: "<<msg<<std::endl;
 };
+void TJDT::update(std::string msg)
+{
+    std::cout<<"Subscriber "<<name<<" accept info:"<<msg<<std::endl;
+}
