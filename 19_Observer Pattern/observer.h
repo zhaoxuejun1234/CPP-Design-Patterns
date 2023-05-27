@@ -4,9 +4,10 @@
 
 #ifndef DESIGN_PATTERNS_OBSERVER_H
 #define DESIGN_PATTERNS_OBSERVER_H
-#include<string>
 #include "agents.h"
+#include<string>
 #include <memory>
+
 class Observer
 {
 public:

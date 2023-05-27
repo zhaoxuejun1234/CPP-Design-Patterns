@@ -4,10 +4,18 @@
 
 #ifndef DESIGN_PATTERNS_AGENTS_H
 #define DESIGN_PATTERNS_AGENTS_H
+//#include "observer.h" 此处注意不能加入observer.h
 #include<iostream>
 #include<string>
-#include<list>
+#include<list>  //注意list和vector在使用上的差异，涉及频繁的增删操作需用list，频繁访问需用vector
+
+//前置声明
+/*(1))Agents.h中前置声明class Observer
+ *(2)Observer中引用Agents.h
+ *(3)Agents.h中只能声明Observer的指针或者引用
+ */
 class Observer;
+
 class Agents
 {
 public:
